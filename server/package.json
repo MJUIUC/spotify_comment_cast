@@ -1,0 +1,32 @@
+{
+  "name": "comment_cast_server",
+  "version": "1.0.0",
+  "description": "server powering community comments on spotify podcasts",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "localdb": "mongod --dbpath ./db_data",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "body-parser": "^1.19.0",
+    "connect-mongo": "^3.2.0",
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "date-and-time": "^0.13.1",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-session": "^1.17.1",
+    "mongoose": "^5.9.21",
+    "nodemon": "^2.0.4",
+    "passport": "^0.4.1",
+    "passport-spotify": "^1.1.0",
+    "spotify-refresh": "^2.0.3",
+    "spotify-web-api-node": "^4.0.0",
+    "unit": "^1.4.3-0"
+  }
+}
